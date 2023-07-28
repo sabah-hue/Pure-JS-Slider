@@ -1,0 +1,33 @@
+.item img{
+    width: 100%;
+}
+
+.layer{
+    display:none;
+    position: fixed;
+    background-color: rgba(0,0,0,.5);
+    inset:0;
+    justify-content: center;
+    align-items: center;
+}
+
+.layer-content{
+    width: 40%;
+    background-color: tomato;
+    height: 400px;
+    background-image: url('../img/client-sm-1.jpg');
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    position: relative;
+}
+
+#close{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
